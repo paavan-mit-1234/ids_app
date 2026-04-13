@@ -116,7 +116,8 @@ with st.sidebar:
 
 # ═══════════════════════════════════════════════════════════════
 # PAGE 1 — OVERVIEW
-# ══════════════════════════════════════════
+# ═══════════════════════════════════════════════════════════════
+if page == "Overview":
     st.title("Adversarial Robustness of DNN-Based NIDS")
     st.markdown("**Dataset:** UNSW-NB15 &nbsp;|&nbsp; **Model:** IDS-DNN (256→128→64→32→10) &nbsp;|&nbsp; **Attacks:** FGSM, PGD via IBM ART")
     st.divider()
