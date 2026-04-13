@@ -112,7 +112,9 @@ with st.sidebar:
     )
     st.divider()
     st.markdown("**Project by:**")
-    st.caption("Paavan Sejpal\nBhavyy Khurana\nYashanil Tiwari")
+    st.caption("Paavan Sejpal")
+    st.caption("Bhavyy Khurana")
+    st.caption("Yashanil Tiwari")
 
 # ═══════════════════════════════════════════════════════════════
 # PAGE 1 — OVERVIEW
