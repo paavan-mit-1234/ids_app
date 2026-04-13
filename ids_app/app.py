@@ -111,12 +111,12 @@ with st.sidebar:
         label_visibility="collapsed",
     )
     st.divider()
-    st.caption("Paavan Sejpal · KLE Tech · 2025")
+    st.markdown("**Project by:**")
+    st.caption("Paavan Sejpal\nBhavyy Khurana\nYashanil Tiwari")
 
 # ═══════════════════════════════════════════════════════════════
 # PAGE 1 — OVERVIEW
-# ═══════════════════════════════════════════════════════════════
-if page == "Overview":
+# ══════════════════════════════════════════
     st.title("Adversarial Robustness of DNN-Based NIDS")
     st.markdown("**Dataset:** UNSW-NB15 &nbsp;|&nbsp; **Model:** IDS-DNN (256→128→64→32→10) &nbsp;|&nbsp; **Attacks:** FGSM, PGD via IBM ART")
     st.divider()
